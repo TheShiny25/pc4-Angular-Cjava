@@ -1,0 +1,39 @@
+<div class="contenedor">
+    <div class="container">
+        <div class="bloque row p-5">
+            <div class="col-lg-5 col-sm-12 col-xs-12">
+                <div class="imagen">
+                    <img src="https://lh3.googleusercontent.com/4Z9Hzmo1-ET0bAgRZx6YvPpl8-8l_0ic6eKtdgou-Lerslu_kWAx6kmfOh-tAFRL9eCysHnJhfqkaicObQ3pYatJRjNYjCx1BkhYR374i58DedxfctE9tmPQSnoZGYP9n3h8VPHKEPnfLd-F6zANJzgmeqMcSR-w?is-pending-load=1"
+                        alt="" style="max-width: 100%;">
+                </div>
+            </div>
+            <div class="col-lg-7 col-sm-12 col-xs-12">
+                <div class="titulo">
+                    <h1>Formulario de Contacto</h1>
+                </div>
+                <div class="contenido">
+                    <form id="formulario" class="novalidate">
+                        <div class="mb-3">
+                            <label for="id" class="form-label">Id</label>
+                            <input type="text" class="form-control" name="userId" id="userId">
+                            <p class="text-danger mb-2 d-none" id="alertId"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" name="userNombre" id="userNombre">
+                            <p class="text-danger mb-2 d-none" id="alertNombre"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" name="userEmail" id="userEmail">
+                            <p class="text-danger mb-2 d-none" id="alertEmail"></p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <div class="alert alert-success mt-2 d-none" id="alertSuccess"></div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
